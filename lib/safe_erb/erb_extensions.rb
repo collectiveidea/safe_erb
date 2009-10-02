@@ -54,6 +54,8 @@ class ERB
     # For some unknown reason, these functions exist as both instance and
     # module functions in the standard ERB::Util class.
     module_function :html_escape
+    module_function :html_escape_without_untaint
     module_function :h
+    module_function :h_without_untaint
   end
 end
